@@ -1,0 +1,41 @@
+@import "./variable";
+header {
+    background: $graycolor;
+    height: 80vh;
+    .logo {
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 30px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        color: linear-gradient(to right, $pinkcolor, $orangecolor) !important;
+    }
+}
+button {
+    @include btn;
+    i.color {
+        color: $grad2;
+    }
+}
+
+.cent {
+    @include flexcenter(column);
+    align-items: center;
+}
+.bnt {
+    position: absolute;
+    margin-top: 300px;
+    padding: 20px;
+    border-radius: 30% 0% 40% 30%;
+    margin-left: 40%;
+    width: 200px;
+    background-image: $mixcolor1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media (max-width: 600px) {
+    .img-box {
+        padding-top: 5px;
+        height: 60%;
+    }
+}

@@ -1,0 +1,29 @@
+$pinkcolor: #f54fa0;
+$orangecolor: #fe7379;
+$graycolor: #edf1f9;
+$bluecolor: #00d4ff;
+$yellowcolor: #ffc500;
+$redcolor: #f1314a;
+$mixcolor1: linear-gradient(to right, $pinkcolor, $orangecolor);
+
+$grad2: linear-gradient(to bottom right, $bluecolor, $yellowcolor, $redcolor);
+
+@mixin btn {
+    background-color: black;
+    color: white;
+    padding: 4px 40px 4px 40px;
+    font-size: 16px;
+    border: none;
+}
+h6.heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+@mixin flexcenter($direction) {
+    display: flex;
+
+    flex-direction: $direction;
+}

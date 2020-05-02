@@ -1,0 +1,66 @@
+h6.heading {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+header {
+  background: #edf1f9;
+  height: 80vh;
+}
+
+header .logo {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: linear-gradient(to right, #f54fa0, #fe7379) !important;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 4px 40px 4px 40px;
+  font-size: 16px;
+  border: none;
+}
+
+button i.color {
+  color: linear-gradient(to bottom right, #00d4ff, #ffc500, #f1314a);
+}
+
+.cent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bnt {
+  position: absolute;
+  margin-top: 300px;
+  padding: 20px;
+  border-radius: 30% 0% 40% 30%;
+  margin-left: 40%;
+  width: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f54fa0), to(#fe7379));
+  background-image: linear-gradient(to right, #f54fa0, #fe7379);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+  .img-box {
+    padding-top: 5px;
+    height: 60%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
